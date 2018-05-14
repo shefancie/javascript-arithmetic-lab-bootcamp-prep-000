@@ -1,1 +1,31 @@
-https://github.com/learn-co-students/javascript-arithmetic-lab-js-intro-000/pull/109/commits/ad09c4054e1632fe49a691dbbc0f08c4b01065f7?diff=unified
++function add(a,b){
++  return a + b;
++}
++
++function subtract(a,b){
++  return a - b;
++}
++
++function multiply(a,b){
++  return a * b;
++}
++
+function divide(a,b){
+  return a / b;
+}
+
+function inc(n){
+  return n += 1;
+}
+
+function dec(n){
+  return n -= 1;
+}
+
+function makeInt(n){
+  return parseInt(n, 10);
+}
+
+function preserveDecimal(n){
+  return parseFloat(n);
+}
